@@ -1,0 +1,54 @@
+# Basic
+title: "Step By Step" 
+subtitle: Share ideas and interesting findings in my life. 
+welcome_message: Formerly works for Microsoft and now Senior Software Engineer for Skytap. 
+description:  I am a software engineer focus on backend service and architecture design. 
+creator: <a href="http://onev.cat">@onevcat</a>
+
+url: "http://ningy.me"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge 
+markdown: kramdown 
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate 
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Project, url: '/projects'}
+    - {title: Stock Tracer, description: My Project stock tracker, url: 'http://stock.ningy.me'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 5 
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: ningsland 
+    # duoshuo: 
+    
+# Social
+social:
+    linkedin: alexningyang
+    weibo:  
+    github: onevcat
+    twitter: 
+    gplus: 
+    mail: ning.yang@outlook.com
+
+# Google Analytics
+ga:
+    id: UA-77429654-1 
+    # host: your_host
